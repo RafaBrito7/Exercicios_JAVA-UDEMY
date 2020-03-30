@@ -2,7 +2,8 @@ Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostr
 sumário do pedido conforme exemplo (próxima página). Nota: o instante do pedido deve ser
 o instante do sistema: new Date().
 
-SAÍDA DESEJADA
+ENTRADA DESEJADA
+XXXXXXXXXXXXXXX
 
 Enter cliente data:
 Name: Alex Green
@@ -19,6 +20,10 @@ Enter #2 item data:
 Product name: Mouse
 Product price: 40.00
 Quantity: 2
+
+SAÍDA DESEJADA
+XXXXXXXXXXXXXXX
+
 ORDER SUMMARY:
 Order moment: 20/04/2018 11:25:09
 Order status: PROCESSING
