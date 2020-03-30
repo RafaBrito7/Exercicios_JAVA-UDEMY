@@ -3,7 +3,6 @@ sumário do pedido conforme exemplo (próxima página). Nota: o instante do pedi
 o instante do sistema: new Date().
 
 ENTRADA DESEJADA
-XXXXXXXXXXXXXXX
 
 Enter cliente data:
 Name: Alex Green
@@ -22,7 +21,7 @@ Product price: 40.00
 Quantity: 2
 
 SAÍDA DESEJADA
-XXXXXXXXXXXXXXX
+
 
 ORDER SUMMARY:
 Order moment: 20/04/2018 11:25:09
