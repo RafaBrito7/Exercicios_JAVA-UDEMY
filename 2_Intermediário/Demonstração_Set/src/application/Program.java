@@ -14,7 +14,7 @@ public class Program {
 		/*
 		 * HashSet = Mais rápido e não ordenado
 		 * linkedHashSet = Velocidade intermediária e os elementos continuam na ordem que foram adicionados
-		 * TreeSet = Mais lento e ordenado pelo CompareTo automaticamente
+		 * TreeSet = Mais lento e ordenado pelo CompareTo automaticamente (Obs: Para Classes Personalizadas Implementar o CompareTo)
 		 */
 		
 		//union = Une os elementos de ambos conjuntos sem repetição
