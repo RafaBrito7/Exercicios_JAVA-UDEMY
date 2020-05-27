@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import entities.Product;
-import util.MyFunction;
 
 public class Program {
 
@@ -27,7 +26,7 @@ public class Program {
 		
 		List<String> names = 
 				list.stream()
-				.map(new MyFunction())
+				.map(Product::staticUpperCaseNames)
 				.collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
