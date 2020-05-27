@@ -2,6 +2,7 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import entities.Product;
@@ -24,9 +25,11 @@ public class Program {
 		 * Obs: Necessário converter de stream para map ( Collect(Collectors.toList()))
 		 */
 		
+		Function<Product, String> fc = p -> p.getName().toUpperCase();
+		
 		List<String> names = 
 				list.stream()
-				.map(Product::staticUpperCaseNames)
+				.map(fc)
 				.collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
