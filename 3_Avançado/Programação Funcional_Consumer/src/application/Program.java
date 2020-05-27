@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import entities.Product;
-import util.MyConsumer;
 
 public class Program {
 
@@ -17,7 +16,7 @@ public class Program {
 		list.add(new Product("Tablet", 45.00));
 		list.add(new Product("Mouse", 450.00));
 
-		list.forEach(new MyConsumer());
+		list.forEach(Product::staticUpdatePrice);
 		
 		list.forEach(System.out::println);
 
